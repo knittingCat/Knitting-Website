@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stitch Library — Knit &amp; Learn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Knit &amp; Learn home">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="20" fill="#c4663e" opacity=".9"/>
+        <path d="M10 18 Q18 10 28 14 Q36 18 38 28 Q34 38 24 38 Q14 36 10 28 Q8 22 10 18Z" fill="none" stroke="#fff" stroke-width="1.5" opacity=".5"/>
+        <path d="M14 14 Q24 8 34 16" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity=".6"/>
+        <path d="M10 26 Q20 32 34 26" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity=".6"/>
+        <path d="M16 36 Q26 38 36 32" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity=".6"/>
+        <path d="M36 14 Q42 20 40 30" stroke="#f7c59f" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="38" cy="12" r="3" fill="#f7c59f"/>
+      </svg>
+      Knit &amp; Learn
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="lessons.html">Lessons</a></li>
+      <li><a href="stitches.html">Stitches</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ── PAGE HERO ── -->
+<div class="page-hero">
+  <div class="container">
+    <div class="section-tag">Reference Guide</div>
+    <h1>Stitch <span>Library</span></h1>
+    <p>A visual guide to the most useful knitting stitches, from total beginner to first intermediate projects.</p>
+  </div>
+</div>
+
+<!-- ── STITCHES ── -->
+<section class="stitches-section">
+  <div class="container">
+
+    <!-- Filter bar -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All Stitches</button>
+      <button class="filter-btn" data-filter="beginner">Beginner</button>
+      <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+    </div>
+
+    <div class="stitches-grid">
+
+      <!-- Garter Stitch -->
+      <div class="stitch-card reveal" data-level="beginner">
+        <div class="stitch-top">
+          <div class="stitch-name-row">
+            <div class="stitch-name">Garter Stitch</div>
+            <span class="badge badge-beginner">Beginner</span>
+          </div>
+          <p class="stitch-desc">The simplest knit fabric — made by knitting every single row. Creates a squishy, ridged texture that lies perfectly flat.</p>
+        </div>
+        <div class="stitch-body">
+          <h4>How to Work It</h4>
+          <ol class="stitch-steps">
+            <li>Cast on any number of stitches.</li>
+            <li>Knit every stitch of every row.</li>
+            <li>That's it! Repeat until your piece is the length you want, then bind off.</li>
+          </ol>
+          <p class="appearance-note">Looks like: horizontal ridges on both sides. The same on the front and back — reversible!</p>
+        </div>
+      </div>
+
+      <!-- Stockinette -->
+      <div class="stitch-card reveal" data-level="beginner">
+        <div class="stitch-top">
+          <div class="stitch-name-row">
+            <div class="stitch-name">Stockinette Stitch</div>
+            <span class="badge badge-beginner">Beginner</span>
+          </div>
+          <p class="stitch-desc">The most iconic knit fabric — smooth "V" shapes on the front, bumpy purl ridges on the back. Used in sweaters, hats, and socks.</p>
+        </div>
+        <div class="stitch-body">
+          <h4>How to Work It</h4>
+          <ol class="stitch-steps">
+            <li>Cast on any number of stitches.</li>
+            <li>Row 1 (Right Side): Knit all stitches.</li>
+            <li>Row 2 (Wrong Side): Purl all stitches.</li>
+            <li>Repeat rows 1 and 2 until desired length, then bind off.</li>
+          </ol>
+          <p class="appearance-note">Looks like: neat "V" shapes on the front (right side), horizontal bumps on the back. Note: edges will curl inward naturally.</p>
+        </div>
+      </div>
+
+      <!-- Reverse Stockinette -->
+      <div class="stitch-card reveal" data-level="beginner">
+        <div class="stitch-top">
+          <div class="stitch-name-row">
+            <div class="stitch-name">Reverse Stockinette</div>
+            <span class="badge badge-beginner">Beginner</span>
+          </div>
+          <p class="stitch-desc">Stockinette shown with the bumpy purl side as the "right side." Used as a contrast texture alongside cables and other patterns.</p>
+        </div>
+        <div class="stitch-body">
+          <h4>How to Work It</h4>
+          <ol class="stitch-steps">
+            <li>Cast on any number of stitches.</li>
+            <li>Row 1 (Right Side): Purl all stitches.</li>
+            <li>Row 2 (Wrong Side): Knit all stitches.</li>
+            <li>Repeat rows 1 and 2, then bind off.</li>
+          </ol>
+          <p class="appearance-note">Looks like: horizontal purl bumps on the front. Identical structure to stockinette — just flipped.</p>
+        </div>
+      </div>
+
+      <!-- 1x1 Ribbing -->
+      <div class="stitch-card reveal" data-level="beginner">
+        <div class="stitch-top">
+          <div class="stitch-name-row">
+            <div class="stitch-name">1×1 Ribbing</div>
+            <span class="badge badge-beginner">Beginner</span>
+          </div>
+          <p class="stitch-desc">Alternating single knit and purl columns that create a stretchy, elastic fabric. Perfect for cuffs, neckbands, and hat brims.</p>
+        </div>
+        <div class="stitch-body">
+          <h4>How to Work It</h4>
+          <ol class="stitch-steps">
+            <li>Cast on an even number of stitches.</li>
+            <li>Every row: * k1, p1; repeat from * to end.</li>
+            <li>Move yarn to back before knitting, to front before purling.</li>
+            <li>Repeat this same row every row. Bind off loosely in pattern.</li>
+          </ol>
+          <p class="appearance-note">Looks like: neat vertical columns of knits and purls. Very stretchy — snaps back to shape after being stretched.</p>
+        </div>
+      </div>
+
+      <!-- 2x2 Ribbing -->
+      <div class="stitch-card reveal" data-level="beginner">
+        <div class="stitch-top">
+          <div class="stitch-name-row">
+            <div class="stitch-name">2×2 Ribbing</div>
+            <span class="badge badge-beginner">Beginner</span>
+          </div>
+          <p class="stitch-desc">Two knit, two purl columns alternating. Slightly less stretchy than 1×1 but with a bolder, more defined rib — popular for socks and sweater hems.</p>
+        </div>
+        <div class="stitch-body">
+          <h4>How to Work It</h4>
+          <ol class="stitch-steps">
+            <li>Cast on a multiple of 4 stitches.</li>
+            <li>Every row: * k2, p2; repeat from * to end.</li>
+            <li>Remember to move yarn between needles when switching between knit and purl.</li>
+            <li>Repeat every row. Bind off loosely in pattern.</li>
+          </ol>
+          <p class="appearance-note">Looks like: wider vertical columns of 2 knits and 2 purls. Classic, structured ribbing texture.</p>
+        </div>
+      </div>
+
+      <!-- Seed Stitch -->
+      <div class="stitch-card reveal" data-level="intermediate">
+        <div class="stitch-top">
+          <div class="stitch-name-row">
+            <div class="stitch-name">Seed Stitch</div>
+            <span class="badge badge-intermediate">Intermediate</span>
+          </div>
+          <p class="stitch-desc">Alternating knit and purl stitches that deliberately <em>don't</em> align between rows, creating a pebbly, textured "seed" pattern. Flat and decorative.</p>
+        </div>
+        <div class="stitch-body">
+          <h4>How to Work It</h4>
+          <ol class="stitch-steps">
+            <li>Cast on an odd number of stitches (e.g., 21).</li>
+            <li>Every row: k1, * p1, k1; repeat from * to end.</li>
+            <li>The pattern is the same every row — the trick is that when you see a knit stitch (V), you purl it, and when you see a purl bump, you knit it.</li>
+            <li>Bind off in pattern.</li>
+          </ol>
+          <p class="appearance-note">Looks like: a bumpy, pebbly texture — the same on both sides. Lies flat with no curling. Great for borders and dishcloths.</p>
+        </div>
+      </div>
+
+      <!-- Moss Stitch -->
+      <div class="stitch-card reveal" data-level="intermediate">
+        <div class="stitch-top">
+          <div class="stitch-name-row">
+            <div class="stitch-name">Moss Stitch</div>
+            <span class="badge badge-intermediate">Intermediate</span>
+          </div>
+          <p class="stitch-desc">Similar to seed stitch but over a 2-row repeat, creating a slightly more elongated, lozenge-like texture. Sometimes called "double seed stitch."</p>
+        </div>
+        <div class="stitch-body">
+          <h4>How to Work It</h4>
+          <ol class="stitch-steps">
+            <li>Cast on an even number of stitches.</li>
+            <li>Rows 1 & 2: * k1, p1; repeat from * to end.</li>
+            <li>Rows 3 & 4: * p1, k1; repeat from * to end.</li>
+            <li>Repeat these 4 rows for pattern. Bind off in pattern.</li>
+          </ol>
+          <p class="appearance-note">Looks like: a slightly larger, more textured version of seed stitch with small horizontal "checks." Reversible and non-curling.</p>
+        </div>
+      </div>
+
+      <!-- Simple Cable -->
+      <div class="stitch-card reveal" data-level="intermediate">
+        <div class="stitch-top">
+          <div class="stitch-name-row">
+            <div class="stitch-name">Simple 4-St Cable</div>
+            <span class="badge badge-intermediate">Intermediate</span>
+          </div>
+          <p class="stitch-desc">Your first cable! By crossing stitches over each other using a cable needle, you create a rope-like twisted column. The foundation of all cable patterns.</p>
+        </div>
+        <div class="stitch-body">
+          <h4>How to Work It</h4>
+          <p style="font-size:.87rem;color:var(--text-light);margin-bottom:.6rem;">You need: a cable needle (cn). Work this cable panel over 4 stitches, with 2+ purl stitches on each side for definition.</p>
+          <ol class="stitch-steps">
+            <li>Work to your cable panel. Slip the first 2 stitches onto the cable needle and hold it in <em>front</em> of your work.</li>
+            <li>Knit the next 2 stitches from the left needle normally.</li>
+            <li>Knit the 2 stitches from the cable needle.</li>
+            <li>This completes one cable cross (C4F). Work cable crosses every 4th or 6th row.</li>
+          </ol>
+          <p class="appearance-note">Looks like: a rope twisting to the left (front cross). Hold the cn in back for a right-twisting cable (C4B). The twist repeats up your fabric, creating a spiral effect.</p>
+        </div>
+      </div>
+
+    </div><!-- /stitches-grid -->
+
+    <div style="text-align:center; margin-top:3rem;">
+      <p style="color:var(--text-light); margin-bottom:1rem;">Ready to practice these stitches?</p>
+      <a href="lessons.html" class="btn btn-primary">Back to Lessons</a>
+    </div>
+
+  </div><!-- /container -->
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <ul class="footer-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="lessons.html">Lessons</a></li>
+    <li><a href="stitches.html">Stitches</a></li>
+  </ul>
+  <p>Knit &amp; Learn &mdash; a free guide to knitting for beginners.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
