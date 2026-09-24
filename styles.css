@@ -104,8 +104,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: var(--max-w);
-  margin: 0 auto;
   padding: 0 1.5rem;
 }
 
