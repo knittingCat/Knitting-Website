@@ -219,6 +219,12 @@ nav {
   margin-bottom: .9rem;
   line-height: 1;
 }
+.feature-icon svg {
+  width: 56px;
+  height: 56px;
+  display: block;
+  margin: 0 auto;
+}
 .feature-card h3 {
   font-size: 1.2rem;
   margin-bottom: .5rem;
