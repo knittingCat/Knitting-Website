@@ -343,6 +343,16 @@ footer a:hover { color: #fff; }
 }
 .lesson-num.active { background: var(--terracotta); }
 
+/* Center the digits in every number circle: Playfair's default old-style
+   numerals sit low, and inherited line-height pushes the glyph off-center. */
+.lesson-num,
+.preview-num,
+.steps-list li::before,
+.stitch-steps li::before {
+  line-height: 1;
+  font-variant-numeric: lining-nums;
+}
+
 .lesson-title {
   font-family: var(--font-head);
   font-size: 1.12rem;
